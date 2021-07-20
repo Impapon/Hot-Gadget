@@ -1,18 +1,21 @@
-.nav {
-    height: 100px;
-    padding-top: 10px;
+.nav-bar{
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 150px;
 }
 
-.nav-item {
-    padding-top: 20px;
+.nav-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: end;
+    align-items: center;
 }
 
-#img-tapbar {
-    justify-content: start;
-}
-
-.home-padd {
-    padding-left: 550px;
+.nav-item{
+    text-decoration: none;
+    color: rgb(44, 42, 42);
+    margin-right: 15px;
+    font-weight: 600;
 }
 
 .banner-after-top {
