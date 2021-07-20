@@ -75,16 +75,20 @@ body {
 
 .cat-heading {
     float: left;
-}
-
-.cat-heading {
     margin-top: 80px;
 }
 
 .category-item h1 {
+    margin-top: 45px;
     size: 30px;
     padding-left: 450px;
     font-weight: italic;
+}
+
+#cat-heading {
+    margin-bottom: 0px;
+    size: 15px;
+    padding-left: 400px;
 }
 
 .underline-cat {
@@ -96,20 +100,14 @@ body {
     margin-left: 470px;
 }
 
-.category-item {
-    margin-top: 20px 30px;
-    padding-left: 50px;
-}
-
 .cat-bag,
 .cat-shoe,
 .cat-perfume,
 .cat-pale {
+    float: left;
+    margin-left: 5px;
+    padding: 25px;
     box-shadow: 0px 10px 20px gray;
-}
-
-footer {
-    padding-top: 100%;
 }
 
 .nav-bar {
@@ -154,4 +152,13 @@ footer {
 
 .banner-slider {
     margin-left: 30px;
+}
+
+.footer {
+    padding-left: 400px;
+    padding-bottom: 100%;
+}
+
+.cat-style {
+    margin-top: 40px;
 }
